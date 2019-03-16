@@ -2,6 +2,7 @@ package MeuProjeto;
 
 public class PrimeiroProjeto {
     public static void main(String[] args){
-        System.out.print("Olá, Mundo");
+        Caneta c1 = new Caneta("BIC", true, false, 0.5f, "Azul");
+        c1.status();
     }
 }
